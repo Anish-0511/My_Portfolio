@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Dev portfolio  || Web Addicted </title>
+  <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
+  <script src="./js/animation.js" defer></script>
+  <script src="./js/color-mode.js" defer></script>
+  <script src="./js/project-slideshow.js" defer></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/animation.css" />
+  <link rel="stylesheet" href="./css/color-mode.css" />
+</head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M9TJG85XNM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-M9TJG85XNM');
+   function openGithub() {
+    window.open("https://github.com/Anish-0511/Job_Zone", "_blank");
+  }
+   function openGithub1() {
+    window.open("https://github.com/Anish-0511/LYRICA_PLAY", "_blank");
+  }
+    function openGithub2() {
+    window.open("https://github.com/Anish-0511/Tic-Tac-Toe", "_blank");
+  }
+
+    function texttoSpeech() {
+    window.open("https://anish-0511.github.io/Text-To-Speech-Converter/", "_blank");
+  }
+    function Tic_Tac_Toe() {
+    window.open("https://anish-0511.github.io/Tic-Tac-Toe/", "_blank");
+  }
+  function openDemo1() {
+    window.open("https://job-zone-blond.vercel.app/login", "_blank");
+  }
+    function openDemo2() {
+      window.open("https://lyrica-play.onrender.com/", "_blank");
+    }
+
+</script>
+
+<body>
+  <div id="hero">
+    <h5>Hello I'm</h5>
+    <h1>Anish Kumar Singh</h1>
+    <p>Fullstack Developer</p>
+
+    <div id="hero__animation">
+      <div id="hero__animation__img"></div>
+    </div>
+  </div>
+
+  <nav id="grid">
+    <div id="grid__tl">
+      <div id="grid__tl__btn">About</div>
+      <div id="grid__tl__content">
+        <div class="cards">
+
+          <!-- Resume -->
+          <div class="cards__content">
+            <article>
+              <img src="./assets/icons/th.jpeg" alt="Education icon" class="icon" />
+              <h2>Resume</h2>
+
+              <a href="https://drive.google.com/drive/folders/1PgeKdUXZk295O_ydOeTfVVaz-iaIY0vj" target="_blank">
+                <p class="dwn">Download</p>
+              </a>
+            </article>
+          </div>
+
+          <div class="cards__content">
+            <article>
+              <img src="./assets/icons/experience.png" alt="Experience icon" class="icon" />
+              <h2>Experience</h2>
+              <p>
+                6 Months  <br />
+                Developer <br />
+                Experience
+              </p>
+            </article>
+          </div>
+
+          <div class="cards__content">
+            <article>
+              <img src="./assets/icons/education.png" alt="Education icon" class="icon" />
+              <h2>Education</h2>
+              <p>B.Tech ECE</p>
+              <p>7.03 GPA | Grade A</p>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div id="grid__tr">
+      <div id="grid__tr__btn">Experience</div>
+      <div id="grid__tr__content">
+        <div class="cards experience">
+
+          <article class="experience__skill">
+            <h2>Frontend Development</h2>
+
+            <div>
+              <img src="./assets/icons/checkmark.png" class="icon" />
+              <div><h2>JavaScript</h2><p>Advanced</p></div>
+            </div>
+
+            <div>
+              <img src="./assets/icons/checkmark.png" class="icon" />
+              <div><h2>React JS</h2><p>Advanced</p></div>
+            </div>
+
+            <div>
+              <img src="./assets/icons/checkmark.png" class="icon" />
+              <div><h2>C++</h2><p>Advanced</p></div>
+            </div>
+
+            <div>
+              <img src="./assets/icons/checkmark.png" class="icon" />
+              <div><h2>HTML - CSS</h2><p>Experienced</p></div>
+            </div>
+
+          </article>
+
+          <article class="experience__skill">
+            <h2>Backend Development</h2>
+
+            <div><img src="./assets/icons/checkmark.png" class="icon" /><div><h2>MongoDB</h2><p>Intermediate</p></div></div>
+            <div><img src="./assets/icons/checkmark.png" class="icon" /><div><h2>MySQL</h2><p>Advanced</p></div></div>
+            <div><img src="./assets/icons/checkmark.png" class="icon" /><div><h2>Node JS</h2><p>Intermediate</p></div></div>
+            <div><img src="./assets/icons/checkmark.png" class="icon" /><div><h2>Express JS</h2><p>Advanced</p></div></div>
+            <div><img src="./assets/icons/checkmark.png" class="icon" /><div><h2>Git</h2><p>Intermediate</p></div></div>
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div id="grid__bl">
+      <div id="grid__bl__btn">Projects</div>
+      <div id="grid__bl__content">
+        <div id="grid__bl__content__projects">
+
+          <div class="project p-1">
+            <img class="project__img project-1" src="assets/portfolio-projects/jobZone.png" />
+            <h2 class="project__title">JOB ZONE</h2>
+            <button class="btn" onclick="openDemo1()">Demo</button>
+            <button onclick="openGithub()" class="btn">GitHub</button>
+          </div>
+
+          <div class="project p-2">
+            <img class="project__img project-2" src="assets/portfolio-projects/lyrica_play.png" />
+            <h2 class="project__title">Lyirca Play</h2>
+            <button class="btn" onclick="openDemo2()">Demo</button>
+            <button onclick="openGithub1()" class="btn">GitHub</button>
+          </div>
+
+          <div class="project p-3">
+            <img class="project__img project-3" src="assets/portfolio-projects/Text-to-Speech.png" />
+            <h2 class="project__title">Text-To-Speech-Converter</h2>
+            <button class="btn" onclick="texttoSpeech()">Demo</button>
+            <button onclick="openGithub2()" class="btn">GitHub</button>
+          </div>
+
+          <div class="project p-4">
+            <img class="project__img project-4" src="assets/portfolio-projects/Tic-Tac.png" />
+            <h2 class="project__title">Tic Tac Toe</h2>
+            <button class="btn" onclick="Tic_Tac_Toe()">Demo</button>
+            <button class="btn" onclick="openGithub2()">GitHub</button>
+          </div>
+
+          
+
+          <button class="arrow" onclick="navigateProject(-1)">&#10094;</button>
+          <button class="arrow" onclick="navigateProject(1)">&#10095;</button>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="grid__br">
+      <div id="grid__br__btn">Contact</div>
+      <div id="grid__br__content">
+        <h5 class="contact-text">Get In Touch</h5>
+        <h2 class="contact-text">Contact Me</h2>
+        <div>
+
+          <!-- Email -->
+          <a href="mailto:singhrajputanish535@gmail.com">
+            <button style="border:4px solid red; padding:0px 20px;" class="btn btn-contact">Email</button>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/anish-kumar-singh-5baa68275/" target="_blank">
+            <button style="border:4px solid rgb(87,87,185);" class="btn btn-contact">LinkedIn</button>
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/919875354810" target="_blank">
+            <button style="border:4px solid rgb(30,170,30);" class="btn btn-contact">WhatsApp</button>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+  <div id="color-mode" style="background-color: rgb(93, 93, 93);">
+    <div id="toggle-button" class="icon" style="background-color: white; border-radius: 50px;"></div>
+  </div>
+
+</body>
+</html>
